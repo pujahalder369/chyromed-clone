@@ -1,0 +1,200 @@
+li {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.toplink:hover {
+    color: blue;
+}
+
+.carousel-caption {
+    right: 5%;
+    text-transform: uppercase;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 8px 30px;
+}
+
+.sub {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* four image & section three */
+.our, .service {
+    text-decoration: underline rgb(6, 203, 6);
+    text-underline-offset: 20px;
+}
+
+.image {
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px black;
+}
+
+.image:hover {
+    opacity: 0.6;
+    border: 3px solid black;
+}
+
+/* footer part */
+#footer-one {
+    background-color:antiquewhite;
+}
+
+.first {
+    height: 430px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.fa-facebook {
+    font-size: 40px;
+}    
+
+.head4 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.adds {
+    font-size: 18px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid rgb(92, 91, 91);
+}
+
+.msg {
+    margin-top: 10px;
+}
+
+.btn2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(4, 187, 123);
+    border: none;
+}
+
+@media screen and (max-width: 1100px) {
+    #hero-one {
+        font-size: 28px;
+    }
+
+    #hero-two {
+        font-size: 10px;
+    }
+
+    .btn1 {
+        padding: 6px 18px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .first {
+        height: 120px;
+        padding-top: 10px !important;
+    }
+
+    .gen {
+        padding: 25px !important;
+    }
+    
+    .cont {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* nav & hero part */
+    #hero-one {
+        font-size: 22px;
+    }
+
+    #hero-two {
+        font-size: 8px;
+    }
+
+    .btn1 {
+        font-size: 12px;
+    }
+
+    /* second part */
+    .serfont {
+        font-size: 12px;
+    }
+
+    .iconfont {
+        font-size: 12px;
+    }
+
+    /* Footer last part */
+    .last {
+        font-size: 14px;
+    }
+
+    .first {
+        height: 90px;
+        padding-top: 10px !important;
+    }
+
+    #stay {
+        font-size: 18px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    #hero-one {
+        font-size: 12px;
+    }
+
+    #hero-two {
+        font-size: 6px;
+    }
+
+    .btn1 {
+        padding: 6px 18px;
+        font-size: 8px;
+    }
+
+    
+
+    /* Footer last part */
+    .last {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero-one {
+        font-size: 8px;
+    }
+
+    #hero-two {
+        font-size: 4px;
+    }
+
+    .btn1 {
+        padding: 2px 10px;
+        font-size: 6px;
+    }
+
+    /* Footer last part */
+    .last {
+        font-size: 11px;
+    }
+}
